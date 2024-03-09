@@ -1,6 +1,15 @@
 
+/*Color celeste de la prueba: rgb(13,202,240)
+Color del navbar:rgb(36,154,166)*/
 
-Color celeste de la prueba: rgb(13,202,240)
-Color del navbar:rgb(36,154,166)
+.container-fluid{
+    background-color:rgb(36,154,166) ;
+}
 
+.card-text{
+    font-family: "Raleway", sans-serif;
+}
+.card-body{
+    background-color:rgb(36,154,166) ;
 
+}
