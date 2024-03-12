@@ -42,6 +42,10 @@ section h3{
 #article{
     padding:  10rem;
 }
+.card{
+    width: 25rem;
+    max-width: 22rem;
+}
 
 .card-text{
     font-family: "Raleway", sans-serif;
