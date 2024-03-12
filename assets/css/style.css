@@ -26,10 +26,11 @@ body{
     transition: padding 0.2s ease-in-out;
 }*/
 section{
-    padding: 12rem;
+    padding: 12rem 5rem 5rem 5rem;
     word-spacing: 0.5rem;
     font-family: "Playfair Display", serif;
     font-size: 1.2rem;
+    
 }
 section h3{
     
