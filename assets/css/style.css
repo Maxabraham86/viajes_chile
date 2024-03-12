@@ -76,7 +76,7 @@ textarea{
 
 footer{
     background-color: rgb(36,154,166);
-        height: 7rem;
+        height: 10rem;
         display: flex; 
         justify-content:center; 
         align-items: center; 
@@ -88,7 +88,7 @@ footer h3{
 }
 footer .iconos{
     color: #ffffff;
-    margin-inline-start: 70rem;
+    margin-inline-start: 50rem;
     font-size: 4rem;
     align-items: baseline;
 
