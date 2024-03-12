@@ -27,7 +27,7 @@
         <a class="navbar-brand" href="#">
         <img src="Apoyo prueba/viajes.svg" width="30">
         </a>
-        <a class="navbar-brand text-light ps-4" href="#">Viajes Chile</a>
+        <a class="navbar-brand text-light" href="#">Viajes Chile</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -57,7 +57,7 @@
         <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1000">
+            <div class="carousel-item active" data-bs-interval="500">
               <img src="Apoyo prueba/assets/img/carousel1.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
@@ -112,16 +112,15 @@
       <article id="article">
         
         <h2 class="text-light text-center">Destacados</h2>
-
-          <div class="row">
-            <div class="col-sm-8 col-md-6 col-lg-3">
-              <div class="card">
-                <img src="Apoyo prueba/assets/img/card1.jpg" class="card-img-top" alt="...">
-                <div class="card-body py-5">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+        <div class="row">
+          <div class="col-sm-8 col-md-6 col-lg-3">
+            <div class="card">
+              <img src="Apoyo prueba/assets/img/card1.jpg" class="card-img-top" alt="...">
+              <div class="card-body py-5">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
+          </div>
 
             <div class="col-sm-8 col-md-6 col-lg-3">
               <div class="card">
@@ -143,7 +142,7 @@
             
             <div class="col-sm-8 col-md-6 col-lg-3">
               <div class="card">
-              <img src="Apoyo prueba/assets/img/card4.jpg" class="card-img-top" alt="...">
+                <img src="Apoyo prueba/assets/img/card4.jpg" class="card-img-top" alt="...">
                 <div class="card-body py-5">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -155,26 +154,24 @@
 
     <!--formulario-->
       <div id="formulario">
-        <div class="container">
-        <form>
-
-          <h3 class="text-center text-light mb-5">Contacto</h3>
-          <div class="mb-3">
-            <label for="" class="form-label text-center">Nombre</label>
-            <input type="text" class="form-control"">
-          </div>
-          <div class="mb-3">
-            <label for="" class="form-label">Asunto</label>
-            <input type="text" class="form-control">
-          </div>
-          <div class="mb-3">
-            <label for="" class="form-label">Mensaje</label>
-            <textarea id="casilla_mensaje" style="height: 200px;"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary"data-bs-toggle="tooltip" data-bs-placement="top"
+        <div class="container2">
+          <form>
+            <h3 class="text-center text-light mb-5">Contacto</h3>
+            <div class="mb-3">
+              <label for="" class="form-label text-center">Nombre</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Asunto</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Mensaje</label>
+              <textarea id="casilla_mensaje" style="height: 200px;"></textarea>
+            </div>
+          <button id="mensaje" type="submit" class="btn btn-primary"data-bs-toggle="tooltip" data-bs-placement="top"
           data-bs-custom-class="custom-tooltip"
-          data-bs-title="Presiona para enviar a tu mensaje">enviar</button>
-          
+          data-bs-title="Presiona para enviar a tu mensaje">enviar</button>          
         </form>
       </div>
     </div>

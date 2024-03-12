@@ -55,13 +55,15 @@ section h3{
 }
 
 /*#casilla_mensaje{
-    textere
+    texterea
 }*/
-container{
-    padding-top: 10rem;
-    padding-bottom: 5rem;
-}
 
+.container2{
+    max-width: 80%;
+    padding-inline-start: 20%;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
 /*valores a textarea*/
 textarea{
     width: 100%;
@@ -73,7 +75,7 @@ textarea{
 
 footer{
     background-color: rgb(36,154,166);
-        height: 10rem;
+        height: 7rem;
         display: flex; 
         justify-content:center; 
         align-items: center; 
@@ -88,7 +90,7 @@ footer .iconos{
     margin-inline-start: 70rem;
     font-size: 4rem;
     align-items: baseline;
-    ;
+
 }
 
 
